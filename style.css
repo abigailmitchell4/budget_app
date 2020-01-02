@@ -1,7 +1,4 @@
-/**********************************************
-*** GENERAL
-**********************************************/
-
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +20,15 @@ body {
   font-weight: 400;
 }
 
-.right { float: right; }
-.red { color: #FF5049 !important; }
-.red-focus:focus { border: 1px solid #FF5049 !important; }
+.right { 
+  float: right; 
+}
+.red { 
+  color: #FF5049 !important; 
+}
+.red-focus:focus { 
+  border: 1px solid #FF5049 !important; 
+}
 
 /**********************************************
 *** TOP PART
@@ -33,7 +36,7 @@ body {
 
 .top {
   height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+  background-image: linear-gradient(rgba(135, 255, 210, 0.2), #b5b928), url(back.png);
   background-size: cover;
   background-position: center;
   position: relative;
